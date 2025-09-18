@@ -1,3 +1,6 @@
+from math import hypot
+
+
 def environnement_optimal(temp, poussiere, humidite):
     """
     Vérifie si l'environnement d'un ordinateur est optimal.
@@ -43,8 +46,28 @@ def environnement_optimal(temp, poussiere, humidite):
 
 
 if __name__ == "__main__":
+
+
+
+
+
+
     temp = int(input("Entrez la température: "))
     poussiere = input("Entrez le niveau de poussiere: ")
     humidite = int(input("Entrez l'humidité: "))
+
+
+
     print(environnement_optimal(temp, poussiere, humidite))
+    temp2 = int(input("Entrez la température: "))
+    poussiere2 = input("Entrez le niveau de poussiere: ")
+    humidite2 = int(input("Entrez l'humidité: "))
+
+    print(environnement_optimal(temp2, poussiere2, humidite2))
+
+    temp3 = int(input("Entrez la température: "))
+    poussiere3 = input("Entrez le niveau de poussiere: ")
+    humidite3 = int(input("Entrez l'humidité: "))
+
+    print(environnement_optimal(temp3, poussiere3, humidite3))
 
