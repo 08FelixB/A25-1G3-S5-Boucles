@@ -48,3 +48,4 @@ if __name__ == "__main__":
     humidite = int(input("Entrez l'humidité: "))
     print(environnement_optimal(temp, poussiere, humidite))
 
+.
